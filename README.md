@@ -1,41 +1,57 @@
-# Youtube-video-downloader
-1. Tk() – The Tk() method helps us create a blank GUI Window.
+<h1 align="center">🎒 LOST & FOUND PORTAL</h1> <p align="center"> <a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/></a> <a href="#"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a> </p>
+<h2>📌 PROJECT OVERVIEW</h2> <p> A <b>student-friendly web portal</b> to <b>report and find lost items</b> within a college campus. </p> <ul> <li>📢 <b>Students can report lost or found items</b></li> <li>👀 <b>Others can view and search the items</b></li> <li>🤝 <b>Helps reunite students with their belongings</b></li> </ul>
 
-2. geometry() – The geometry() method defines the size of the GUI Window.
+<h2>💡 PROJECT INSPIRATION</h2> <p> 🏫 **Colleges** are places where stories begin — including the all-too-familiar one of 🎧 <b>losing a brand-new earphone</b>, which you might have just left on a desk… but you’re not sure if it’s still there.
 
-3. Title – The title() method gives an appropriate title to the GUI Window.
+😟 This problem feels so relatable to most students.
+🔁 And the truth is — the problem will remain the same until someone builds a solution.
 
-4. Label() -The label() method creates a widget on the GUI Window which helps us display a piece of text. You can specify the following attributes inside a Label() method:
+✨ That’s exactly what this project is about:
+👉 turning a common student frustration into a simple, effective solution.
 
-Text – what text to be displayed.
-Bg – Background colour.
-Fg- Foreground colour.
-Font – The font of the text
-5. Entry() – The Entry() method helps us create an entry field on the GUI Window. We can specify the following things inside the Entry() method:
+</p>
 
-Width – The width of the entry field.
-Textvariable – what variable will be associated with the entry field.
-6. Checkbutton() – The CheckButton() method creates check buttons on the GUI Window. For one checkbutton the method is used one. Inside a checkbutton() method, we can specify the following things:
+✨ Ideal for <b>colleges, hostels, libraries, and student groups</b>.
 
-Onvalue – The value assigned when the check button is checked.
-Text – The text visible with the checkbutton.
-Textvariable – The variable associated with the checkbutton.
-7. Button() – The button() method helps us create a Button on the GUI Window. Inside a Button() method, we can specify the following attributes:
+<h2>🚀 TECHNOLOGIES USED</h2>
 
-Text – Text on the button.
-Command – The function to be evoked when the button is clicked.
-Bg – Colour of the button.
-Fg – Foreground colour.
-8. pack() – pack function s to display all the widgets on the GUI Window.
+🐍 <b>Python</b>
 
- 
-    video_streams = video.streams.filter(file_extension = 'mp4').get_by_itag(res)
-    video_streams.download(filename = "Untitled", output_path = "video_path")
-    Label(window,text="Downloaded Successfully").pack()
-We have created the downloader function to download a video from YouTube.
-We have created a global variable res.
-get() – Using the get() method, we get the value entered in the entry field.
-YouTube() – Extracts the video from YouTube.
-video.streams.filter() – Is to set the filter to the video.
-get_by_itag() – Is to specify the resolution of the video.
-download() – Is to download the video.
+⚡ <b>Flask (Backend)</b>
+
+🎨 <b>HTML & CSS (Frontend)</b>
+
+🗄️ <b>SQLite (Database)</b>
+
+🌍 <b>Git & GitHub (Version Control)</b>
+
+☁️ <b>Render (Deployment)</b>
+
+<h2>⭐ FEATURES</h2>
+
+🧾 Report lost items by entering details
+
+🔍 Browse or search listed items
+
+✅ Simple & clean user interface
+
+🏫 Specially designed for <b>college campus use</b>
+
+<h2>🛠️ HOW TO RUN LOCALLY</h2>
+# 1. Clone the repository
+git clone https://github.com/your-username/lost-found-portal.git  
+
+# 2. Navigate into the project folder
+cd lost-found 
+
+# 3. Install dependencies
+pip install -r requirements.txt  
+
+# 4. Run the Flask app
+python app.py  
+
+
+➡️ Open browser: http://127.0.0.1:5000/
+
+
+✨ <i>A small step towards helping students reunite with their belongings!</i>
